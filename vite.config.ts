@@ -31,7 +31,7 @@ const pwa_manifest: Partial<VitePWAOptions> = {
 // https://vitejs.dev/config/
 export default defineConfig({
 	base: './',
-	plugins: [vue(), legacy(), VitePWA(pwa_manifest)],
+	plugins: [vue(), legacy()],
 	resolve: {
 		alias: {
 			'@': path.resolve(__dirname, './src'),
