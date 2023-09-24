@@ -1,0 +1,19 @@
+{
+	"name": "Photo Gallery",
+	"short_name": "Photo Gallery",
+	"description": "Vue & Ionic Test PWA",
+	"icons": [
+		{
+			"src": "/favicon.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "any maskable"
+		}
+	],
+	"theme_color": "#3880ff",
+	"background_color": "#fffffff",
+	"display": "standalone",
+	"scope": "/",
+	"start_url": "/",
+	"orientation": "portrait"
+}
