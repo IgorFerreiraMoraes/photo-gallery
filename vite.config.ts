@@ -20,7 +20,7 @@ const pwa_manifest: Partial<VitePWAOptions> = {
 			},
 		],
 		theme_color: '#3880ff',
-		background_color: '#fffffff',
+		background_color: '#ffffff',
 		display: 'standalone',
 		scope: '/',
 		start_url: '/',
