@@ -6,7 +6,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-	base: 'https://photo-gallery-neon-five.vercel.app/',
+	base: './',
 	plugins: [vue(), legacy(), VitePWA({ registerType: 'autoUpdate' })],
 	resolve: {
 		alias: {
